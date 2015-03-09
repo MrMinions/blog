@@ -1,0 +1,760 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>往事</title>
+    <meta name="description" content="Solstice Photography/Portfolio Template">
+    <meta name="keywords" content="portfolio template, photography template, creative, bootstrap, html5/css5">
+    <meta name="author" content="JLP Media">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="http://jennylynpereira.com/demo/html/awesome-photography2/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="http://jennylynpereira.com/demo/html/awesome-photography2/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://jennylynpereira.com/demo/html/awesome-photography2/css/responsiveness.css">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="http://jennylynpereira.com/demo/html/awesome-photography2/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="http://jennylynpereira.com/demo/html/awesome-photography2/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://jennylynpereira.com/demo/html/awesome-photography2/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://jennylynpereira.com/demo/html/awesome-photography2/img/apple-touch-icon-114x114.png">
+
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/modernizr.custom.js"></script>
+    
+    <!-- Switcher Only -->
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="http://jennylynpereira.com/demo/html/awesome-photography2/css/demo.css" media="all"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+   <script>
+   function SetWinHeight(obj)
+    {
+      var win=obj; 
+    if (document.getElementById) 
+    {
+      if (win && !window.opera) 
+      { 
+        if (win.contentDocument && win.contentDocument.body.offsetHeight) 
+        win.height = win.contentDocument.body.offsetHeight; 
+        else if(win.Document && win.Document.body.scrollHeight) 
+        win.height = win.Document.body.scrollHeight; 
+      } 
+    } 
+  }
+    function SetWinHeight2(obj)
+    {
+      var win=obj; 
+    if (document.getElementById) 
+    {
+      if (win && !window.opera) 
+      { 
+        if (win.contentDocument && win.contentDocument.body.offsetHeight) 
+        win.height = win.contentDocument.body.offsetHeight+30; 
+        else if(win.Document && win.Document.body.scrollHeight) 
+        win.height = win.Document.body.scrollHeight+600; 
+      } 
+    } 
+  } 
+  
+
+    </script>
+
+
+
+  </head>
+
+  <body>
+    <!-- Preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- Navigation
+    ================================================== -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>              
+          </button>
+          
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" href="#banner">主页</a></li>
+            <li><a class="page-scroll" href="#portfolio">故事</a></li>
+            <li><a class="page-scroll" href="#about">关于我们</a></li>
+            <li><a class="page-scroll" href="#footer">更多故事</a></li>
+            <li><a href="upload.html">自己的故事</a></li>
+          </ul>
+        </div><!-- End navbar-collapse -->
+      </div><!-- End container -->
+    </nav>
+
+    <header id="banner" class="carousel slide zoom carousel-fade" data-ride="carousel">
+
+      <div class="carousel-inner">
+          <iframe width="100%" align="center" height="650" id="win" name="win" onload="Javascript:SetWinHeight(this)" frameborder="0" src="http://127.0.0.1:8000/intro.html"></iframe>
+    </header>
+
+    <!-- Portfolio Title -->
+      <div class="light-overlay ptitle">
+        <h2>故事</h2>
+        <h5>这里有你想看的各种类型的趣事...</h5>
+      </div>
+    </section>
+
+    <!-- Portfolio Section
+    ================================================== -->
+    <section id="portfolio" class="grid">
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="1s"> <!-- Portfolio 1 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/01.jpg" alt="01_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>月亮是偷来的光阴</h2>
+          <p>月亮是“人走茶凉”的那杯？中秋是“天凉好个秋”之后的那一叹？</p>
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">View more</a> <!-- Larger image popup -->
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 1 -->
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="2s"> <!-- Portfolio 2 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/02.jpg" alt="02_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>最难的一件事其实叫随遇而安</h2>
+          <p>在成功和财富面前能够处之泰然，在挫折和痛苦中能够处之泰然，过轰轰烈烈的日子与平常的日子都能处之泰然，对于命运加给自己的一切都敢于承担和面对，乐天知命，这就是我对幸福的理解。</p>
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">View more</a><!-- Larger image popup -->
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 2 -->
+      
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="3s"> <!-- Portfolio 3 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/03.jpg" alt="03_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>上半身埋在故土，下半身飘在异乡</h2>
+          <p>从城市回到故乡过年，很奇怪，每年都有相同感受：生养我的故乡，和我打拼的城市越来越像，和别人的故乡也越来越像。</p>
+          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">View more</a>
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 3 -->
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="4s"> <!-- Portfolio 4 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/04.jpg" alt="04_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>抵达内心的自己</h2>
+          <p>每年一度的春运，其实也是每年一次对内心的朝圣。所以，不管多苦多累，也要上路，走吧，去找到那个温情而纯粹的自己。</p>
+          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">View more</a>
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 4 -->
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="5s"> <!-- Portfolio 5 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/05.jpg" alt="05_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>我并没有比谁幸运</h2>
+          <p>做个努力的学生，学着照顾自己。春天的祝福，都饱含着诚意。愿你来年和顺，愿我们都能简单的幸福着、幸福的简单着……</p>
+          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">View more</a>
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 5 -->
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="6s"> <!-- Portfolio 6 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/06.jpg" alt="06_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>每个好日子都像苟且偷欢</h2>
+          <p>上帝的存在只能说明一件事：这个世界很缺爱。“其实，有爱的人就是神，他们能把别人也变成神。”</p>
+          <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">View more</a>
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 6 -->
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="1s"> <!-- Portfolio 7 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/07.jpg" alt="07_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>情感生活里没有伟大</h2>
+          <p>两情相悦，只有两厢有情才能相悦，追求情感付出的不管有多少，只有得到情感上的回应才能两悦</p>
+          <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">View more</a>
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 7 -->
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="2s"> <!-- Portfolio 8 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/08.jpg" alt="08_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>谁需要诤友</h2>
+          <p>看对人的人，不需要诤友，因为自己就是自己最好的诤友。看错人的，更不需要了，因为他分不清谁是诤友，谁说的是良言。 </p>
+          <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">View more</a>
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 8 -->
+
+      <figure class="effect-portfolio wow fadeIn" data-wow-duration="3s"> <!-- Portfolio 9 -->
+        <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/09.jpg" alt="09_img"/> <!-- Your image here -->
+        <figcaption> <!-- Caption -->
+          <h2>有人哭有人笑有人输有人老</h2>
+          <p>一些歌，喜欢是真喜欢，可一旦强迫自己静下来，捕捉它的旋律，研读它的词，在自己支离破碎的记忆里努力翻找那些与它相关不相关的碎片，那个过程，又形同自虐。</p>
+          <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">View more</a>
+        </figcaption> <!-- End caption -->   
+      </figure> <!-- End portfolio 9 -->
+
+    </section> <!-- End Portfolio Section -->
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>月亮是偷来的光阴</h2>
+                            <div class="videoWrapper">
+                                <img style="weith:716px;height:426px"  src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/01.jpg" ><!-- Your Youtube URL Here -->
+                            </div>
+                            <p>月亮是“人走茶凉”的那杯？中秋是“天凉好个秋”之后的那一叹？
+
+月亮催人多情、深情，同样一轮明月，却被诗意的中国人发明成一种情怀：淡淡忧伤，淡淡美好，淡淡思念，淡淡思想……如那月华。
+
+是的，我都不忍心叫它“月光”，“月华”似乎更接近我对它温柔的期待。
+
+无言的最高境界，就是与月华的这样身心交融。我本满心荒凉，因为月华的抒情，我从荒凉里，触摸到绸缎的微凉，“微凉”更接近我前世记忆里的秋天、现在的年龄、此刻的心情。
+
+为什么与遥远的月亮总有着心灵的感应？
+
+因为孤单。一样的孤单。
+
+月亮是浪漫主义，月球就是现实主义。中国嫦娥上去了，务虚；美国宇航员上去了，务实。有时候，我真的更需要一些虚幻的美，比如想你比追你更迷惘，比如黑夜比白昼更贴心地迷茫。
+
+我不算是个很开心的人，后来在微笑的唇角看见孤单，在月亮的残缺里看见内心的秘密，于是微凉，于是喜欢迷茫。
+
+孤单的时候，会用一些“爱”一些“偷”来奖励或掩饰内心的黯淡与悲凉。
+
+人生在世，几乎都在找。找，就是孤单。接到一段很励志的友人之短信，包括叫我少喝酒、别纵欲等；我回：与君共眠。片刻，朋友再回我：一起睡觉？咱们？今天晚上？你确定？你喜欢我穿什么内裤？我一看头大（别的没大），惊诧有这么一步到位的调情短信，回看“已发信息”，发现是我错在先，把“共勉”写成“共眠”。有些错充满绮丽想象力。
+
+而多少错，都是源于孤单。不安于心。
+
+其实，每个人都有一轮荒凉的月亮，期待辉映。可是，月亮只有一轮，所以月亮总在圆缺里找一些热闹、光影。终于明白，为什么我的风景总在无人的地方？最好的修行是看见荒无人烟。
+
+最近，我喜欢“偷得半日闲”，去郊外偷摘水果，然后笑，如月亮呼吸，抒发是一种自我的拯救。偷的刺激与快乐，你有没有？某天下午去末代皇帝老师的老家福州螺州玩，还偷摘番石榴、龙眼，很是尽兴。之前有群朋友半夜在西湖偷解游船，然后在湖面游弋，特别兴奋。我终于明白，偷情为什么那么多人蠢蠢欲动、前赴后继，偷是一种纯天然的罪。
+
+你说，今天晚上的月亮很圆。我觉得，是很远。爱你之后，才发现孤单了很久了。
+
+远处的你说，我们一起看月亮吧。我回：我这就到阳台上去看。结果，多云。月亮不在。其实，有你在就好。过一会，你又喊：月亮爬出来了！我笑，闭目，想起你爬上来的模样……
+
+听林宥嘉的歌《心酸》，满眼月色，“我们曾相爱，想到就心酸。”世界上最孤单的事，不是没遇到爱的人，而是遇到却最终错过；世界上最无奈的事，不是你爱的人不爱你，而是他爱过你后，最后却不爱你。避孕药的有效期是三年，套套的有效期是五年，很多时候，药和套套都还没有过期，爱情却已经过期了。
+
+爱比较久的那个人，比较好，比较孤单，如我，如那月亮，剩在天际，偷一些光，藏一些阴，都是秘密，都是孤单，就是全部的“光阴”。</p>
+                            <p><strong>作者简介：</strong> 罗西：著名专栏作家，《创业天下》杂志执行主编，心灵牧师，电视电台嘉宾主持。在《好主妇》《新民晚报》等全国50多家报刊杂志上开设过专栏。个人畅销专著有《性感是另一种高贵》《比耳环更近的是耳语》《你生命中的贵人往往是异性》《男人是没有进化好的女人》《不是美人也可以用美人计》《心灵鸡汤----青春密码》等30多部。</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>最难的一件事其实叫随遇而安</h2>
+
+                            <div id="slider" class="carousel slide" data-ride="carousel">
+
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner">
+                                <div class="item active">
+                                  <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/02.jpg" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/03.jpg" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/05.jpg" alt="...">
+                                </div>
+                              </div>
+
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+                                <span class="fa fa-caret-left fa-2x"></span>
+                              </a>
+                              <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+                                <span class="fa fa-caret-right fa-2x"></span>
+                              </a>
+                            </div>
+
+                            <p>春节前活动很多，我推掉了大部分邀请，参加了一个聚会。聚会中有一些我喜欢的年轻人，这是我参加这个活动的理由之一。
+
+活动搞得相当热闹，如惯常的辞旧迎新一样，总免不了回顾和展望。在一系列的程序之后，到了主办者精心策划的中心议题：探究幸福的谜底。
+
+在多名主持人的联合主持下，来宾们一个个上台即兴发言。关于幸福是否只存在于物质财富的数字和浮华的现象之中？幸福的真相到底是什么？是否更多存在于家庭关系、朋友情感、身心健康、个人价值或个人自由之中。大家发表的见解精彩纷呈，各具特色。
+
+我也发表了我的看法。
+
+我认为，没有所谓单纯的幸福。幸福就是和不幸福的事情保持一种“对比”。当一个人对什么是“不幸福”没有真切感觉的时候，对“幸福”是无法体验的。
+
+佛教说“有情即苦”，人天生对痛苦就是有感觉的，婴儿一出生，饿了会哭，困了会闹，没有一个生命对痛苦没有感觉。佛教创始人释迦牟尼本是出身高贵的王子，生来就拥有世俗人所渴望拥有的一切，权力、财富和美色，然而，当他看到世间许多痛苦之后，毅然出家。他为什么要这样做呢？他在追求对痛苦的解脱。那在他来说一定是一种幸福。
+
+有思想家说，生命的本质是焦虑。
+
+一个人希望比较长久地把握幸福，首先对不幸福要有思想准备。
+
+针对现场朋友的发言，我接着做了类似“反方”的陈述。有人说上有老、下有小尽享天伦之乐很幸福；可是如果有一天老人去世了，或者孩子成长得不顺利，你是不是就不能幸福了呢？又有人说，幸福就在于做自己喜欢做的事情；然而，许多人都在不得不地做着一些并非自己喜欢的事，这是否就不能幸福了呢？还有的人说，幸福就是有几个心心相印的好朋友；然而，背叛的事情时有发生，甚至会带给自己极大的伤害，这时你是否就不能幸福了呢？还有的朋友说，对幸福的理解是成功，的确，成功在当下似乎成为压倒一切的人生目标，然而，人生从来不可能是一条直线，永远有高峰又有低谷，那么，陷于低谷时你是不是就不能幸福了呢？
+
+人随时随地都可以很痛苦，又随时随地都能够很幸福。
+
+全看你对幸福与痛苦的理解。
+
+一个成熟的人在回顾人生时，通常会看到自己比较年轻时对幸福的理解有点肤浅。只有走过一定的生命历程，对生离死别、成功失败都有所体验之后，才会真正懂得什么是幸福。如果幸福是因为你的出身比别人高贵，你天然获得的资源比别人丰厚，这种幸福不令人羡慕。
+
+一个人可以骄傲的是什么呢？是在那些看来很不顺利的条件下，还能够正确面对，并完成你人生的角色。现代人可能为自己不够成功而焦虑，为得不到更多的爱而焦虑，可是我们是否想过，这个世界上许多最不幸的人，他们有的身患重病，有的衣食无着，有的孩子失去父母……想一想这些“最不幸”的人们，很多通常人所谓不能忍受的痛苦都可称得上“奢侈”。
+
+主持人最后问我对幸福的结论。
+
+我说，在成功和财富面前能够处之泰然，在挫折和痛苦中能够处之泰然，过轰轰烈烈的日子与平常的日子都能处之泰然，对于命运加给自己的一切都敢于承担和面对，乐天知命，这就是我对幸福的理解。</p>
+                            <p><strong>作者简介：</strong> 柯云路，中国著名作家。人生最大爱好有三：哲学，科学，文学。在文学领域，著有长篇小说《新星》《曹操与献帝》《芙蓉国》等二十余部，并多次引起轰动。在文学以外，著有文化人类学专著《人类时间》，历史研究专著《极端十年》，心理学专著《焦虑症患者》、《破译疾病密码》、《走出心灵的地狱》、《工作禅二十四式》，《破译命运密码》，教育学著作《中国孩子成功法》、婚恋研究专著《婚恋潜规则》等，皆受到读者欢迎。最新出版：政治军事历史小说《曹操与献帝》。</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>上半身埋在故土，下半身飘在异乡</h2>
+                            <img class="img-responsive" src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/03.jpg" alt="Image">
+                            <p> 乡亲满是喜悦问我：“有没有发现家乡变得比以前美了？不是吹嘘，几乎一天一个样子，这几年的变化超越了过去一二十年的发展总和，连我这个日夜蹲守乡下的老土都快认不出了！”我“嗯！”了一声，点了点头，一股寒凉从脊梁骨深处往上窜起，好冷。乡亲满脸失望，显然，我的“无动于衷”刺伤了他。
+
+ 我很尴尬，那情形近乎于患了一场重感冒，窒息感像南方冬天湿冷的空气笼罩着大地。在城里，我不知多少次在同事和朋友们面前，礼赞我的故乡有多美。那时，我像个天真炫耀的孩子，故乡是我心中的一块蜜糖。而今，站在故乡的田野上，我对这里充满了敌意，故乡是加了味精的一道隔夜菜。要不是父母执意留在老家过年，我甚至都不想再凑热闹，跟万千个同乡抢票回故里。
+
+ 春节几天，雷打不动的是串门走亲戚，除了一顿接一顿胡吃海喝，就是昼夜搓麻。本以为回到故乡能睡个安稳觉，不成想，常有“哗哗”的波涛声袭到枕边，还以为是毗邻大海而眠，浪花朵朵，断断续续，时而高涨，差一点就溅湿了我的床铺。我跟母亲抱怨，她说乡下现在时兴这个解闷，劝我也学学搓麻，不然过节会很无聊。印象里儿时的春节，大家都是围炉畅谈，聊一年来地里的收成和庄稼的长势，故乡老年月里的旧人旧闻。坐在一旁的我，听得如痴如醉。即使亲戚上门拜年，主家安排一桌“四色牌”，无论输赢，客人到了晚上八九点钟也会主动散场休息。不像现在这样，整个村子家家搓麻到午夜，村上村下波浪汹涌。
+
+ 这种陌生与疏离，让我特别恐慌，就像一个局外人被挡在村外。百感交集下，我试图用走路，来重新与故乡建立关系。
+
+不管是站在田塍上远望，还是亲近村子的一户户院落，我肯定：“这不是我的故乡。”一栋栋楼房被后面的房子推推搡搡，有些已挤到了昔日的良田里，精致的双层小洋楼撑起了这座村庄的“繁华”，它无时无刻不在告诉你：不差钱。要不是一两户未育儿女的人家依然住着旧时瓦房，我甚至怀疑儿时的我是否曾在这个村落疯玩过。打谷场没有金黄草垛，没有躲猫猫的女孩，没有滚铁环的男孩，坑坑洼洼的地面上横竖躺着几辆轿车，石磙蜷缩在枯草乱枝里，像个被遗弃的孤儿。几口池塘覆满了各色塑料垃圾和水草。早些年，年关将至，村民们一起在塘里打鱼，按户分鱼，那时池塘边聚集了围观的老少爷们，欢笑声犹在耳畔乱窜。田塍里的良田，不少都荒着，显然四季都未曾下过庄稼。三伯说，村里种地的人越来越少，都出去搞大钱了。平日里，村子哪像过年这么热闹，寂静得连条狗都懒得叫一声。
+
+ 路上，撞见儿时的一些个伙伴，被问到的第一句话总是：“你一年能搞多少钱？”除了钱，似乎再无从可谈。见到一些长辈，上前跟他打招呼，他第一句回你的就是：“搞大钱的人回来了。”走在村子里，尴尬就像凉风在房屋和光秃的树木间挤挤迫迫乱窜，吹得人瑟瑟发颤。
+
+ 阳光稀薄地敷在房屋和树木上，滑落得都快没了。快到午饭时辰，站在远处的畈上望向村庄，左等右等，始终未见炊烟。昔日里，袅袅炊烟是线，缝起“良田美池桑竹之属”的乡村时光。而今，不少人家已经弃柴废灶，改用煤气烧饭。炊烟再也不是村庄的根了。
+
+ 我竭力搜寻与这座村庄的关联。晃荡着转到村前那条经流不息的河道，水干了，出现了一个又一个深坑，几条采砂船突兀地戳在那里，颇有占地为王的霸道。记得我第一次离开家乡，家里的那条狗默默跟着我走过了长长的田埂和这条河道，我喝它滚回去，它蹲在河道这边，直勾勾望向河道那边的我。而今，老狗早归西了，想不到那竟是我和它的最后一次别离。这次，我在村里晃荡，一条条狗看见我吠个不停，一准儿把我当外乡人了。也难怪，村子里认识我的年纪稍大的长辈都去了，后辈们大都不认识我，这里早没了我的天地。
+
+ 杜诗里说“故人日以稀”。在故乡，“日以稀”的何止是故人？年少时，我们的目光总是热衷于远眺而吝啬于回首；成年后，当我们回望时，故乡早已不再是原来的模样。故乡——“它的过去像长城一样，在地平线上绵延起伏。但是长城在现代没有用了。”我想，总有一天，我对故乡的情感会降格到类似于怀念一个嫁给了情敌的姑娘。
+
+ 春节过后，一个个杂沓数日要回城了，村子复归沉寂。走出村口时，故乡能被我感知的气息越来越稀薄了。我发现，原来，我日夜怀念的，只是旧日的故乡。</p>
+                            <p><strong>作者简介：</strong> 王丹枫，毕业于解放军外语学院和上海财经大学，管理学硕士。1994年进入证券投资领域，早年先后在华夏证券及湖北信托上海证券业务部从事交易管理、投资银行等工作。1998年加入睿信投资管理有限公司。全面负责公司投资研究工作，并担任睿信（开曼）中国成长基金、中信睿信成长1期、深国投·睿信5期及华宝睿信一期基金经理。</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>抵达内心的自己</h2>
+                            <img class="img-responsive" src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/04.jpg" alt="Image">
+                            <p>说起来，我也算是个少小离家的人，与父母天各一方，貌似遥远，除了逢年过节，少有回去的机会。
+
+老家距青岛90公里，进出青岛的火车，在高密都会停上片刻，长途客车也多得很，再加上我家所在的村子挺大，交通便利到有班跑青岛的长途客车，途径我们的村子，下车走十几步就进家门了，所以，狼狈程度可媲美逃难的春运，在我感觉里，不过是夸大其词的谣传。
+
+结婚以后，按传统风俗，女人是要去婆家过春节的，老公老家，是传说中八仙过海的地方，风光不错，也满富庶，可他家村子坐落的地界，交通不便到了实在是让人头疼。如果我们坐火车回，要在烟台下车，换乘汽车到蓬莱，离他家还有15公里，可通往村子是崎岖不平的山路，出租车司机都不肯去。
+
+乘火车曲折迂回，又麻烦得很，索性就放弃了，改乘长途汽车，在离他们村最近的地方下车，扛着大包小包，徒步穿过结冰的水库往家走，那才叫步步惊心呢。中秋回去，就要绕水库而行，提前告知家人我们哪天回，大约几点到，他们开农用拖拉机去接我们。
+
+至今，我无法忘记那条环水库而修的山间路，不是它风光秀美，而是路面倾斜而颠簸，农用拖拉机倾斜着身子，拼着老命突突怒吼也跑不快，还上蹿下跳，一副随时就要翻车把我们扣在车兜里的嘴脸，实在是太惊魂了，惊魂得每每坐上农用拖拉机，满脑子满心都是视死如归的悲壮。
+
+我今生今世吵得最精彩最流利的架，也发生在去婆家过春节的长途车上，起因是有个男人上车比我早，占了我的座位，我好声好气告诉他，这座是我的，他都置若罔闻地听他的随身听，被我催急了，就很是不耐往后指了指，让我去坐他的座行了，我告诉他我不想换座，因为我孩子小，而且晕车，我们提前很多天买票，就是为了坐在前面，以减轻她的晕车症状，男人还是一副不肯挪窝的嘴脸，一想到女儿可能会因晕车吐得一塌糊涂，我这个几乎从不和人吵架的人，当即发飚，用周星驰在《九品芝麻官》里骂人的功夫，和他讲道理，我口齿清楚，逻辑紧密，语速快得让他毫无还嘴余地……整个车厢里，除了我高厨刀切黄瓜般的鼓噪，鸦雀无声，这是我有生以来吵得最精彩也最立竿见影的一次架，话音一落，男人一言不发拎包滚了，而我，只剩了换气的份。
+
+家里有车以后，就没再坐过长途，自驾回家，相对挤长途，从容也安逸了，可有些时候，我会很贱才地怀念坐长途车回老家的时光，在狭小而拥挤的车厢里，拥挤着素昧平生的人，很容易滋生戏剧效果，这，也是风景的一种，也许是职业原因，我天生有颗八卦的心，对人与人之间发生故事的兴趣永远要大于看路边风景，惶惶春运路上的狼狈里，更容易看得见人内心的花朵或苔藓，找得到它们，对我来说，就像农民面对黄澄澄的麦田，丰收的欣喜远远大于劳作的苦恼。
+
+谣传中的春运苦不堪言，可一到春节，人们依然会趋之若鹜地投身其中，究其原因，不外是那个再苦再累也要去的地方，是魂牵梦绕的家乡，是我们出生并长大的地方，更是我们内心那个诗意而倦怠的自己，最舒适安逸的栖息地。
+
+每年一度的春运，其实也是每年一次对内心的朝圣。所以，不管多苦多累，也要上路，走吧，去找到那个温情而纯粹的自己。</p>
+                            <p><strong>作者简介：</strong> 连谏，本名连淑香，女，现居青岛，时尚杂志撰稿人，在多家杂志开专栏，跌宕起伏的都市小说是最爱的拿手好戏，辛辣刻薄的杂文是最痛快的情绪排泄，自称码字匠人或一只刻薄的老地瓜，发表各类文字二百多万字，因爱高收爱高产。其作品被众多影视公司争抢版权，小说《门第》被改编成同名电视剧，由佟大为、于明加等主演，于2013年上映。</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>我并没有比谁幸运</h2>
+                            <div id="slider2" class="carousel slide" data-ride="carousel">
+
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner">
+                                <div class="item active">
+                                  <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/05.jpg" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/03.jpg" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/02.jpg" alt="...">
+                                </div>
+                              </div>
+
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#slider2" role="button" data-slide="prev">
+                                <span class="fa fa-caret-left fa-2x"></span>
+                              </a>
+                              <a class="right carousel-control" href="#slider2" role="button" data-slide="next">
+                                <span class="fa fa-caret-right fa-2x"></span>
+                              </a>
+                            </div>
+                            <p>你的工作压力太大了，你必须要休息。”
+
+不止一个医生这样对我说。拿到曼谷vichaivej医院的体检报告，没有任何意外。想想一年365天终要过去，全年无假。一大早飞机落地。返回北京。关了网络，实在疲惫至极。依旧被电话吵醒：明天，新节目《苏闺正传》新闻发布会、韩国阿里郎(亚洲新女性)专题片制作组要来拍摄纪录片、晚上出席好友的时装发布会……又是匆匆忙忙的一天。疯狂工作模式继续开启。
+
+有时候是真羡慕身边的女孩子。不是故作矫情。羡慕她们可以在周末时光赖赖床，可以跟闺蜜一起喝杯下午茶，可以在饭点的时候搜搜美食地图。而我，似乎从步入职场，便未有过这样的待遇。早年从外企到媒体，再到现在的为自己打工，每份工作无不高强度连轴运转。对我而言，工作就是生活，生活就是工作。一次媒体来采访：“如果给你三个月假期，你会怎么安排？”我说“不知道。”——我是真不知道。从没试过给自己三个月空闲会是怎样，大概我会恐慌、会不适应、会不知道如何面对漫长的一天24小时。也可能会欣喜不已，会爱上懒散的漫不经心。没试过的事，谁说得准呢。
+
+想想这些年，我会在出租车堵在路上时赶着写微博、在飞机的万米高空上写书稿、在节目录制间歇回复媒体访问，这，已经成了日常习惯。每每被记者问“业余时间喜欢做什么”，脑袋里一片空白。
+
+说出来还真有点难为情，作为一个资深的眼泪依赖症患者，我平时最重要的业余爱好是——哭。
+
+我有套公寓，在26层，有空的时候喜欢来这里写写东西、看看远空变化的云朵、试试买来的新裙子、也漫无目的的掉掉眼泪，泪珠儿劈里啪啦掉上一个半个小时，似乎是一种很大的宣泄，感觉终于可以对无奈的工作和现实做点反抗，过后风干眼泪、化好妆，继续笑着去出发。或者想哭的时候不敢哭，掉完眼泪的眼睛会肿起来，旁人会关切的问“你眼睛怎么回事？”好吧，忍着。
+
+也有忍不住的时候。有次节目录制现场，也不知是当事人的故事勾起了莫名的情绪还是怎的，其实也并不是感人的故事，突然就那样委屈，眼泪汪汪，忍都忍不住，主持人也是多年的好朋友涂磊惊讶的问“你怎么哭了？”
+
+我直了直腰“呃，睫毛胶过敏了。”
+
+其实很不喜欢在节目里掉眼泪，想哭也要尽力忍住，有时我都不知道为何要这样苛刻自己，我只知道：要强，是我一生的软肋！
+
+就像很多朋友都问我：“为什么你这么幸运，会成为现在的你？”
+
+——我并没有比谁幸运，只不过，我不愿意被人看到哭的样子。
+
+自己的路，一步步靠自己走出来。脚上的水晶鞋你看得到，脚底的血印儿只有我自己知道。我不能倒下，因为背后没人撑着。
+
+ 
+
+一年下来，网友各种来信，有的看到眼泪簌簌，大家把连父母亲人都不会说的话讲给我听，是真的感动。在感谢信任的同时，不是个个都能回复得过来，也真的抱歉。又到了开春的季节，真心希望下一个365天可以继续跟你们的闺蜜情，因为我羡慕那些疼爱自己的你们：可以和自己喝喝茶，把自己照顾得很舒服，把最好的留给自己……有时候人活得自私一点似乎也不是坏事。
+
+所以，各位亲爱的你，千万不要学我，因为我真的不够爱自己。
+
+——做个努力的学生，学着照顾自己。春天的祝福，都饱含着诚意。愿你来年和顺，愿我们都能简单的幸福着、幸福的简单着……</p>
+                            <p><strong>作者简介：</strong> 苏芩，著名作家，历任媒体主编、国内多家电（视）台、平面媒体特邀顾问。她长期以大视角关注女性发展，关爱女性成长，为女人立言，其“苏芩女学馆”是目前国内最受欢迎、流量最大的情感交流空间，吸引超过六亿人次访问，倍受年轻读者追捧。其文经典精悍，睿智深远，洞穿世情人心却不乏温暖励志，都市女性几乎无人不知。</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>每个好日子都像苟且偷欢</h2>
+                            <img class="img-responsive" src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/06.jpg" alt="Image">
+                            <p>中年之后，所有其他人的不幸都像发生在我身上。马航意外，我唯一的感受是：我怕。
+
+我怕我是谜团的中央，如果命运真推送到终极，我心里翻腾的一定全是：房贷怎么办？明天谁送小孩上学？老人将何以度残年？有没有人能给我一张纸片，让我匆匆写下所有银行密码、所有文件契约的所在地？远藤周作小说《深河》里，得了重病的作家，每天强颜欢笑，却在上手术台的前夜，向他养的大黑鸟痛苦地嘶吼出来：我死了我老婆孩子怎么办，他们怎么活下去。我读到这里，眼泪止不住地流。
+
+我也怕我是等待的人：好好的出了门，怎么突然间生死不知？汤已经煲好，热水器早就烧到70℃，我在等你，你怎么还不回来？我奔走，我寻求，谁给我答案——不，我不要答案，我只要你平安。再不信神佛的人，这一刻都不能不祈祷。但宿命的意思，怎么猜测？
+
+我更怕，我会变成我不想要的，那种“心如铁石的人”。几十小时吉凶未卜，流言满天，我终于丧失耐心，对朋友放胆说：若他们说的属实，真是恐怖袭击，那么定要以牙还牙，以血洗还血洗。“人，比起爱，更因憎恨而结合。人因有共同的敌人而结合在一起。长久以来，任何国家、任何宗教，都是如此延续下来。”但我心中生起隐隐不安，这里面是否也包括无辜者的血？仇恨一旦开始，报复势在必行，那谁来区分有罪无罪？像“淫人妻女报在妻女”一样，受伤赴死的，总是最弱小的群体。
+
+2011年，因为工作的原因，我坐过一二百次高铁、动车，我很喜欢它沉默的舒适、准时以及我感受到的安全。火车上一次小睡，或者看半本小说，就到了我要到的地方，邻座的聊天也与我无关。也就是那一年，7月23日高铁事故震惊全国。我不寒而栗，感觉每一段旅途，都是单身涉险；每一次回家，都是劫后余生。
+
+撞车后的第二天，我还要按照原定行程出发——车站一如既往，有序的嘈杂，过一阵子，喇叭便播一次：“去往广州的旅客请注意……”隐约的胡思乱想像冬日里冷凝的呼吸，就悬在鼻孔前。火车的那一头，有工作在等我，在生存面前，所有痛哭犹疑都像是矫情的一种。
+
+我偶尔当笑话讲给人听，却被一个不认识的小朋友指斥。他说为了给“有关部门”施压，应该集体抵制高铁，只有全车厢空空如也，才是空拳的力量。我哑然失笑，小朋友太年轻，还不懂生活。
+
+我没有跟我妈讲高铁事故，就像现在我也不和她谈马航意外一样。我和她聊的社会新闻，大部分都是老年人如何被骗或者摔倒没人扶。危险时代，每个年龄层有自己的恐怖要面对。
+
+我却忘记，信息时代，儿女不再是老人获得新闻的唯一窗口。
+
+高铁事故后第二周，我正常外出，本应周日到家，周六上午，我妈打电话给我，劈头一句：“你怎么还没到家？”我一愣，说：“你弄错日子了。今天是周五（我也慌乱得口误）。你不要紧张。”她说：“哦……（明显松一口气）我不紧张，你也不要紧张。”挂了电话，我觉得有眼泪好像要掉出来。
+
+我明知恐惧无济于事，甚至可能出于“先发制人”的念头，变成恶意。但我，控制不了，它从心底一层一层地翻出来。生死大劫，阴影重重，每一个好日子都像苟且偷欢。
+
+我唯一能安慰自己的正能量便是：因为恐惧，因为知道终将失去，于是把与你共度的每一分每一秒都当成最宝贵的光阴——这个“你”，是我的家人爱人朋友工作以至一切。</p>
+                            <p><strong>作者简介：</strong>叶倾城，原名胡庆云，作家，1995年开始文学创作，湖北作家协会会员。国内发行量最大杂志《读者》的签约作家，其作品在诸多的报杂志中有很高的转载率。著有《爱是一生的修行》、《爱是一种修行》、《倾城十年》、《情感的第三条道路》、《爱与不爱都是事儿》、《一杯闲半生愁》等多部散文集，《原配》、《心碎之舞》《麒麟夜》等多部长篇小说，独立编剧的电影《如果爱上我的青春》正在投拍中。“写作之于我，越来越像一桩宿命，一份天赐的枷锁，但我愿意背负这沉重，直至永远。”她如是说。为此，她笔耕不辍，期冀有朝一日成为文坛常青树。</p>
+                           
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>情感生活里没有伟大</h2>
+                            <img class="img-responsive" src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/07.jpg" alt="Image">
+                            <p> 昨天看电视里一档情感类节目，有一对年轻人的事挺感人的，女的身体不好，患有好几种疾病，男的挺健康，为了给女生治病，还卖掉了自己的车，女的不愿意再拖累这男生，要求分手，而这男的怎么也不同意，愿意为女生付出一切。节目里主持人嘉宾主持的都认为这两人是真爱，都伟大的为对方着想，女的也哭哭啼啼的，最后终于拥在了一起。
+
+      不知为什么，看这对男女的故事，我倒是隐隐有些担心，感觉这女生可能是真的有点不愿意和这男的生活在一起，起码她的心里不是很舒服、不是那么理所应当。在情感生活里，都说母爱父爱伟大，这种亲情的情感不用说，是天然的联系。而在男女情感里，这种情感生活需要伟大吗？我觉得没有。
+
+      男女情感的吸引，是种说不出的感觉，在追求情感的过程中，也总有追与被追的关系，也可能有付出多付出少的可能。在追求的过程中，也可能把付出的多少当成感情的投入，这种付出的过程和程度，可能得到对方的回应，也可能得不到对方的认可。不是所有的追求都会因为你的付出而成正比的回收，真的不是因为你本质对他（她）的吸引，而仅仅凭感动得到的情感，我觉得对对方就是一种负担，而不是愉悦。
+
+      在情感的追求过程中，付出都应该是自觉自愿的，如果是费尽心机的为了得到对方的回报，这种付出对自己没有快感，对对方的情感其实也像是另一种绑架，在心智上得不到顺畅的对接，只是在你的包围下一种缴械，这算是有心人终于得到，而不能算是有情人终成眷属。
+
+      男女的情感，付出虽可能有不对等，但不能叫作伟大，特别是自己不能认为自己有多么伟大、多么纯粹，这种付出都是自己情感的发射，能得到回应是一种满足，不能得到回应也是自己的情感表达，其实是一种自我的东西，不能是为了得到的一种手段，或者以这种所谓的伟大、纯粹而给对方以情感压力，使对方在情感生活中处于一种被动、无力摆脱之中，这些得到的，也只能是形式上的得到，肉体上的得到，灵魂里，可能真有厌烦的成分，而只是在你的伟大的名义下无法摆脱而已。
+
+      两情相悦，只有两厢有情才能相悦，追求情感付出的不管有多少，只有得到情感上的回应才能两悦，而用付出去占领对方的精神，最后得到的只能是身体，满足的只有自己一方的私欲，这种貌似的伟大，更像是一种情感上的绑架，在乎的不是对方的感受，而只是自己的输赢……</p>
+                          
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>谁需要诤友</h2>
+                            <img class="img-responsive" src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/08.jpg" alt="Image">
+                            <p>有一个女友，鬼使神差爱上了有妇之夫。我道德感一向松散，从不认为奸夫淫妇该被沉塘，却替她不值，一个矮胖寻常的中年男人，有什么可要——这其实是我庸俗审美观的体现，但当时的我，确实觉得，她应该找一个同龄的少年，一起唱歌一起蹦迪，笑声如阳光雪片，洒落一地。
+　　她和人家纠纠缠缠三四年，男人向原配提离婚了，原配打电话骂她是婊子了……一团乱麻，每一个绳结她都向我倾诉，我无一例外，道：“趟这浑水干嘛？”苦口婆心，把天理人情掰碎揉断，恨不得像养小孩一样，嚼得稀烂喂给她，逼她咽下去。
+　　到最后，男人辞职，净身出户，欠下百万债务付给原配作为赔偿，只为给她一个交待。至此，我们仍然可以质疑他与她的爱情道不道德，另一方面也不得不承认：这男人，是条汉子。
+　　而我与她，就渐渐地失去了联系。还说什么呢？我见她丈夫会尴尬，人家估计也不想见到我。很惭愧，在他们众叛亲离、内外交困的年代，我扮演的角色，不是“我永远挺你”，而是所谓的“诤友”。
+　　人，其实是不需要诤友的。
+　　奥斯丁有部小说叫《劝导》，以她特有的微妙讥讽，说到那些劝导、那些大道理，在生活中的行不通。你看他一脚踩进泥塘，你自以为旁观者清要救他出水火——他只是想浑水摸鱼而已。
+　　尤其是男女之事。爱，是一种半癫狂状态，神塞目迷，“天上下刀子都要爱”，“死了也要爱”，肉体痛苦在所不惜，生死大限都全不在乎，何况闲人的几句闲话。你对她说：寄言痴小人家女，慎勿将身轻许人！人家回你：终被无情弃，不能羞。
+　　而如果没爱到这程度，理性还占着上风。经济学就是建立在“每个人都是理性人”的基础上的，理性的人，自然有自己的经济学，不劳旁人操心了。
+　　更何况，你以为你知道的是全部吗？我们听了开头，就以为这也是一个老套的中年男人与小三故事。那男人玩够了就回头，继续扮演好丈夫好父亲，而且一生睡得极香甜安稳，从来不会被内疚惊起。我们都看错了，唯有她一个人，看对了人。
+　　看对人的人，不需要诤友，因为自己就是自己最好的诤友。看错人的，更不需要了，因为他分不清谁是诤友，谁说的是良言。
+　　而什么时候该说话，什么时候该闭嘴，这真是一个很困难的功课。</p>
+                            <p>
+                                <strong>作者简介：</strong>叶倾城，原名胡庆云，作家，1995年开始文学创作，湖北作家协会会员。国内发行量最大杂志《读者》的签约作家，其作品在诸多的报杂志中有很高的转载率。著有《爱是一生的修行》、《爱是一种修行》、《倾城十年》、《情感的第三条道路》、《爱与不爱都是事儿》、《一杯闲半生愁》等多部散文集，《原配》、《心碎之舞》《麒麟夜》等多部长篇小说，独立编剧的电影《如果爱上我的青春》正在投拍中。“写作之于我，越来越像一桩宿命，一份天赐的枷锁，但我愿意背负这沉重，直至永远。”她如是说。为此，她笔耕不辍，期冀有朝一日成为文坛常青树。<a href="#">here</a>.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>有人哭有人笑有人输有人老</h2>
+                            <img class="img-responsive" src="http://jennylynpereira.com/demo/html/awesome-photography2/img/portfolio/09.jpg" alt="Image">
+                            <p>一开始我是想写另外一首歌。可一想到要写它，心里就总是别别扭扭，有种时隐时现的胆怯。于是，我上网去翻找各种所谓的“热门歌榜”。一页接一页翻过，一个个歌名从眼皮底下无感地滑了过去，直到这一首，《朋友别哭》。
+
+    这是一首喜欢了至少10年的歌。有日子没听了。在电脑上一遍遍回放它，那种因为极度喜欢以致不知不觉深陷其中的感觉，又回来了。
+
+    一些歌，喜欢是真喜欢，可一旦强迫自己静下来，捕捉它的旋律，研读它的词，在自己支离破碎的记忆里努力翻找那些与它相关不相关的碎片，那个过程，又形同自虐。
+    和一些让我惊艳的歌曲一样，《朋友别哭》也是听音乐广播时的收获。那年，偶然在收音机里第一次听到它，那一刻的感觉，有如一见钟情。
+
+    “有没有一种爱，能让你不受伤，这些年堆积多少对你的知心话。什么酒醒不了，什么痛忘不掉，向前走，就不可能回头望”。向前走，就不可能回头望，这分洒脱、不纠缠、不磨叽，一向喜欢。
+
+    阐释友情的歌曲，从来不缺。但似乎没几首歌，能像《朋友别哭》这样，每句歌词都像在讲故事。而这个故事，貌似就曾发生在你和我的身上，你很容易在歌词里隐隐约约瞥见自己的一些过往，想起自己曾经拥有或已失去的一段友情，甚或是比友情更浓更烈的其他情谊。一首好歌，应该会讲故事，应该有画面感，《朋友别哭》就是这样。
+
+    2006年秋天，我开始玩博客，当时往博客音乐库里一口气放了几十首歌，其中就包括《朋友别哭》。总有认识不认识的博友跑来我的博客留言说，《朋友别哭》是他们特别喜欢的歌，每去KTV必点。这些博友，50后、60后、70后兼有，有趣的是男士居多。又过了几年，和一位外地朋友在MSN上聊流行歌曲，这位80后竟然也提及《朋友别哭》，“每次唱歌都点它”。原来，貌似不温不火的这首歌，对不同年龄的人，竟然有如此相似的分量。
+
+    那时候，时常跟同事或朋友去KTV唱歌。有别于我那些网友的是，我周围会唱爱唱《朋友别哭》的人，却不是特别多。偶尔有人唱起，即便唱得一般，我都有邂逅知己般的感动。
+
+    2013年，是我们这个年级大学毕业20周年。从年初开始，散落于天南海北的不同系别不同专业的同学通过微博、微信，逐一相识、相认。每月甚至每周，同学聚会频仍。很多次饭局后，热心的同学会拉住我：走，唱歌去！歌房里，一首首老歌轮番响起，让人惊喜的是，总缺不了这首《朋友别哭》。“朋友别哭，我依然是你心灵的归宿。朋友别哭，要相信自己的路。红尘中，有太多茫然痴心的追逐，你的苦，我也有感触。”只是，在那种20年后再相逢的欢乐时刻，兴奋热烈的气氛弥漫全场，有多少人能静心去认真打量歌词里那分惺惺相惜和深情告白？难说。
+
+    《朋友别哭》的魅力，在我看来，有一半得归功于歌者吕方的演绎。
+
+    对很多人而言，吕方这个名字可能不够如雷贯耳，但在我喜欢的香港歌手名单里，这个名字不可或缺。清亮通透又不失温润的高音，是他的标签。他与徐小凤的音色，一度被誉为“香港最美声音”。《听不到的说话》、《你令我快乐过》、《从未如此深爱过》、《只因我太痴》、《同是寂寞人》、《每段路》、《老情歌》、《弯弯的月亮》等歌曲风靡一时。1995年，《朋友别哭》唱遍两岸三地，更多人认识了吕方这个“香港好声音”。
+
+    听《朋友别哭》有10年，其间，我会穿插着听那几首音色“最吕方”的《听不到的说话》、《老情歌》、《你令我快乐过》等。每当这个温润性感的高音萦绕耳际时，我时常禁不住想：换一个人，换另一个嗓音，这些歌曲，还会有如此精致的美感吗？我的答案是“不会”，它们只属于吕方。
+
+    确实，无需说太多，见证一切的，只是时间，歌如此，歌者如此，生活也如此。比如，人到中年，我们反而容易给自己开启一扇新的窗户，我们也已自自然然地看到了，这花花世界真的像梦一场，有人哭，有人笑，有人输，有人老。没有醒不了的酒，没有忘不掉的痛，故人往事，继续安静地待在心灵最深处好了。从今以后，如果还有那么一个人，还有那么几个人，还乐意守在你的不远处，在你需要的时候，像歌里唱的那样告诉你，“朋友别哭，我陪你就不孤独。你的苦，我也有感触。”那么，此生，你已无憾。</p>
+                            <p><strong>作者简介：</strong>陈娉舒，中国青年报文化周刊主编。生于70年代。1993年中国人民大学新闻系毕业入职中青报。多次参与中青报各类重大报道。曾获“中国新闻奖”数次，中国环境保护领域最高奖“地球奖”，全国性新闻作品及个人奖项数十个。先后上岗总编室要闻编辑、经济蓝讯周刊编辑、星期五周刊编辑、教科文记者、文化记者、阅读周刊主编、文化周刊主编。</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- About Section
+    ================================================== -->
+    <section id="about"> <!-- Start about -->
+      <div class="about-content wow fadeIn" data-wow-delay="2s">
+        <div class="container"> <!-- Container -->
+          <h2>关于我们</h2> <!-- Your name or agency name here -->
+          <p class="large">北京昌平</p> <!-- Your address -->
+          <p class="small"></p> <!-- Your website -->
+          <br>
+          <p class="large">我喜欢音乐、狗、骑行、喝咖啡</p> <!-- Tell more about you -->
+          <p class="atext">博客，仅音译，它的正式名称为网络日志；又音译为部落格或部落阁等，是一种通常由个人管理、不定期张贴新的文章的网站。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。许多博客专注在特定的课题上提供评论或新闻，其他则被作为比较个人的日记。一个典型的博客结合了文字、图像、其他博客或网站的链接及其它与主题相关的媒体，能够让读者以互动的方式留下意见，是许多博客的重要要素。大部分的博客内容以文字为主，仍有一些博客专注在艺术、摄影、视频、音乐、播客等各种主题。博客是社会媒体网络的一部分。</p>
+        </div>
+      </div> <!-- End container -->
+    </section> <!-- End about -->
+<section id="footer"> <!-- Start footer -->
+      
+
+    <iframe width="100%" align="center" height="1110" id="win" name="win" onload="Javascript:SetWinHeight(this)" frameborder="0" src="http://127.0.0.1:8000/story.html"></iframe>
+   
+   </section> 
+   
+
+ <!-- Call-To-Action Section
+    ================================================== -->
+    <section id="subscribe"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 wow fadeIn" data-wow-delay="0.2s">
+            <p><span>把自己的故事分享给其他人吧...</span></p>
+          </div>
+          <div class="col-md-4 wow fadeIn" data-wow-delay="0.4s">
+            <a class="page-scroll" href="upload.html"><span class="btn right">更多故事</span></a> <!-- Subscribe button -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- jQuery / JavaScript plugins
+    ================================================== -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/jquery-1.11.0.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/bootstrap.js"></script>
+    
+    <script src="js/wow.min.js"></script><!-- Content Animation -->
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/SmoothScroll.js"></script> <!-- Smooth scrolling page-->
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/cbpAnimatedHeader.js"></script>
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/classie.js"></script>
+    <!-- Contact page-->
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/contact.js"></script>
+    
+    <!-- My Custom Plugin JavaScript -->
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/main.js"></script>
+    
+    
+
+    <!-- Demo Switcher JS -->
+    <script type="text/javascript" src="http://jennylynpereira.com/demo/html/awesome-photography2/js/fswit.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+<script src="//tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+    <!--<script>tinymce.init({selector:'textarea'});</script>
+<script>tinymce.init({plugins: "textcolor",toolbar: "forecolor backcolor"});</script>-->
+<script>tinymce.init({
+
+    selector:'textarea',
+    plugins: ["textcolor","image"],
+    file_browser_callback: function(field_name, url, type, win) {
+             if(type=='image') $('#my_form input').click();
+        },
+    toolbar: [
+        "undo redo | styleselect | bold italic | link image |alignleft aligncenter alignright",
+        "forecolor backcolor"
+    ]
+
+
+
+});</script>
+
+</head>
+<body>
+
+<form action="/new" method="POST">
+{%csrf_token%}
+<li>标题：</li><input type='text' name='title'/>
+
+<li>内容：</li>
+<textarea name='content' style='height:400px'></textarea></p>
+
+<button>发送</button></p>
+</form>
+</body>
+</html>
